@@ -23,6 +23,9 @@ namespace EmployeeCrud_With_StoreProcedure.Models
         public string Salary { get; set; }
 
         public string Gender { get; set; }
+        public string JoinDate { get; set; }
         public bool IsActive { get; set; }
+        public int TotalCount { get; set; }
+        public int RowNum { get; set; }
     }
 }

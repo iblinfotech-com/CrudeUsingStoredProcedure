@@ -6,6 +6,9 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/plugins/jquery-confirm/jquery-confirm.min.css" rel="stylesheet" />
+    <link href="~/Content/plugins/toastr.js/toastr.min.css" rel="stylesheet" />
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -40,5 +43,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script src="~/Content/plugins/toastr.js/toastr.min.js"></script>
+    <script src="~/Content/plugins/jquery-confirm/jquery-confirm.min.js"></script>
 </body>
 </html>
